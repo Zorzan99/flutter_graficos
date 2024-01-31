@@ -1,4 +1,4 @@
-import 'package:flutter_graficos/widgets/bar_graph/individual_bar.dart';
+import 'package:flutter_graficos/pages/line_chart1/widgets/bar_graph/individual_bar.dart';
 
 class BarData {
   final double sunAmount;

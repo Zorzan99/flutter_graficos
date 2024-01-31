@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_graficos/widgets/bar_graph/bar_graph.dart';
+import 'package:flutter_graficos/pages/line_chart1/widgets/bar_graph/bar_graph.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class LineChart1 extends StatefulWidget {
+  const LineChart1({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<LineChart1> createState() => _LineChart1State();
 }
 
-class _HomePageState extends State<HomePage> {
+class _LineChart1State extends State<LineChart1> {
   List<double> weeklySumary = [
     4.40,
     2.50,
@@ -22,6 +22,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: Center(
         child: SizedBox(
           height: 400,

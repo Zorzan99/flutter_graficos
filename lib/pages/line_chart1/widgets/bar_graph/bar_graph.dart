@@ -1,6 +1,6 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_graficos/widgets/bar_graph/bar_data.dart';
+import 'package:flutter_graficos/pages/line_chart1/widgets/bar_graph/bar_data.dart';
 
 class BarGraph extends StatelessWidget {
   final List weeklySumary;
