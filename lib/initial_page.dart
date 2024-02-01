@@ -26,6 +26,10 @@ class InitialPage extends StatelessWidget {
               onPressed: () => Navigator.pushNamed(context, '/lineChart3'),
               child: const Text('Line Chart3'),
             ),
+            ElevatedButton(
+              onPressed: () => Navigator.pushNamed(context, '/pieChart1'),
+              child: const Text('Pie Chart1'),
+            ),
           ],
         ),
       ),
